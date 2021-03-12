@@ -2,86 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://brianchophi.github.io/project/project1/</loc>
+    <loc>https://brianchophi.github.io/project/project1/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/project/project2/</loc>
+    <loc>https://brianchophi.github.io/project/project2/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/project/project3/</loc>
+    <loc>https://brianchophi.github.io/project/project3/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/project/project4/</loc>
+    <loc>https://brianchophi.github.io/project/project4/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/golang/</loc>
+    <loc>https://brianchophi.github.io/tags/golang/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/post/</loc>
+    <loc>https://brianchophi.github.io/post/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/</loc>
+    <loc>https://brianchophi.github.io/tags/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/post/creating-a-new-theme/</loc>
+    <loc>https://brianchophi.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/</loc>
+    <loc>https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/</loc>
+    <loc>https://brianchophi.github.io/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/math/</loc>
+    <loc>https://brianchophi.github.io/math/</loc>
     <lastmod>2021-03-11T17:49:29+08:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/math/combination/</loc>
+    <loc>https://brianchophi.github.io/math/combination/</loc>
     <lastmod>2021-03-11T17:49:29+08:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/post/goisforlovers/</loc>
+    <loc>https://brianchophi.github.io/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/development/</loc>
+    <loc>https://brianchophi.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/post/hugoisforlovers/</loc>
+    <loc>https://brianchophi.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/go/</loc>
+    <loc>https://brianchophi.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/hugo/</loc>
+    <loc>https://brianchophi.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/template/</loc>
+    <loc>https://brianchophi.github.io/tags/template/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/themes/</loc>
+    <loc>https://brianchophi.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/jekyll/</loc>
+    <loc>https://brianchophi.github.io/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/post/migrate-from-jekyll/</loc>
+    <loc>https://brianchophi.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/static-site-generator/</loc>
+    <loc>https://brianchophi.github.io/tags/static-site-generator/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/bootstrap/</loc>
+    <loc>https://brianchophi.github.io/tags/bootstrap/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/categories/</loc>
+    <loc>https://brianchophi.github.io/categories/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/css/</loc>
+    <loc>https://brianchophi.github.io/tags/css/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/highlight-js/</loc>
+    <loc>https://brianchophi.github.io/tags/highlight-js/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/html/</loc>
+    <loc>https://brianchophi.github.io/tags/html/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/js/</loc>
+    <loc>https://brianchophi.github.io/tags/js/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/project/</loc>
+    <loc>https://brianchophi.github.io/project/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/responsive/</loc>
+    <loc>https://brianchophi.github.io/tags/responsive/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/tags/syntax-highlighting/</loc>
+    <loc>https://brianchophi.github.io/tags/syntax-highlighting/</loc>
   </url><url>
-    <loc>http://brianchophi.github.io/about/</loc>
+    <loc>https://brianchophi.github.io/about/</loc>
   </url>
 </urlset>
