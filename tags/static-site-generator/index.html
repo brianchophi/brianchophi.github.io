@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>static-site-generator</title>
-        
-        <style>
-
-    html body {
-        font-family: 'Noto Sans TC', sans-serif;
-        background-color: white;
-    }
-
-    :root {
-        --accent: green;
-        --border-width:  5px ;
-    }
-
-</style>
+<head>
 
 
-<link rel="stylesheet" href="https://brianchophi.github.io/css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>static-site-generator</title>
 
+    <style>
+        html body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: white;
+        }
+
+        :root {
+            --accent: green;
+            --border-width: 5px;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="https://brianchophi.github.io/css/main.css">
 
 
 
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC">
 
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+
     <script>hljs.initHighlightingOnLoad();</script>
 
 
@@ -51,119 +53,129 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
 
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.81.0" />
-        
-            <link href="/tags/static-site-generator/index.xml" rel="alternate" type="application/rss&#43;xml" title="遊戲數學" />
-            <link href="/tags/static-site-generator/index.xml" rel="feed" type="application/rss&#43;xml" title="遊戲數學" />
-        
+    <script>$(document).on('click', function () { $('.collapse').collapse('hide'); })</script>
+    <meta name="generator" content="Hugo 0.81.0" />
 
-        
+    <link href="/tags/static-site-generator/index.xml" rel="alternate" type="application/rss&#43;xml" title="遊戲數學" />
+    <link href="/tags/static-site-generator/index.xml" rel="feed" type="application/rss&#43;xml" title="遊戲數學" />
 
-        
-            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        
 
-        
 
-    </head>
 
-    <body>
-        
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">static-site-generator</a>
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">首頁</a></li>
-                            
-                                <li><a href="/about/">關於我</a></li>
-                            
-                                <li><a href="/post/">所有文章</a></li>
-                            
-                                <li><a href="/math/">精選文章</a></li>
-                            
-                        </ul>
-                    
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:b98507006@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/brianchophi/"><i class="fab fa-linkedin"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://github.com/brianchophi"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://gitlab.com/brianchophi"><i class="fab fa-gitlab"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://line.me/ti/g2/l1LVsBaOCwRJWX8OOp5Vew?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default"><i class="fab fa-line"></i></a></li>
-                            
-                        </ul>
-                    
-                </div>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand visible-xs" href="#">static-site-generator</a>
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-        </nav>
+            <div class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
+
+                    <li><a href="/">首頁</a></li>
+
+                    <li><a href="/about/">關於我</a></li>
+
+                    <li><a href="/post/">所有文章</a></li>
+
+                    <li><a href="/math/">精選文章</a></li>
+
+                </ul>
 
 
-<main>
+                <ul class="nav navbar-nav navbar-right">
 
-    <h2>static-site-generator</h2>
+                    <li class="navbar-icon"><a href="mailto:b98507006@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </li>
 
-     <div class="item">
+                    <li class="navbar-icon"><a href="https://www.linkedin.com/in/brianchophi/"><i
+                                class="fab fa-linkedin"></i></a></li>
 
-    
-    
-    
+                    <li class="navbar-icon"><a href="https://github.com/brianchophi"><i class="fab fa-github"></i></a>
+                    </li>
 
-    
-    
+                    <li class="navbar-icon"><a href="https://gitlab.com/brianchophi"><i class="fab fa-gitlab"></i></a>
+                    </li>
 
-    <h4><a href="/post/migrate-from-jekyll/">Migrate from Jekyll</a></h4>
-    <h5>March 10, 2014</h5>
-    
-<a href="https://brianchophi.github.io/tags/go"><kbd class="item-tag">go</kbd></a>
+                    <li class="navbar-icon"><a
+                            href="https://line.me/ti/g2/l1LVsBaOCwRJWX8OOp5Vew?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default"><i
+                                class="fab fa-line"></i></a></li>
 
-<a href="https://brianchophi.github.io/tags/golang"><kbd class="item-tag">golang</kbd></a>
+                </ul>
 
-<a href="https://brianchophi.github.io/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
-
-<a href="https://brianchophi.github.io/tags/jekyll"><kbd class="item-tag">jekyll</kbd></a>
-
-<a href="https://brianchophi.github.io/tags/static-site-generator"><kbd class="item-tag">static-site-generator</kbd></a>
+            </div>
+        </div>
+    </nav>
 
 
+    <main>
 
-</div>
- 
+        <h2>static-site-generator</h2>
 
-</main>
+        <div class="item">
 
 
 
-        <footer>
-            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
-        </footer>
 
-        
 
-        
-    </body>
+
+
+
+            <h4><a href="/post/migrate-from-jekyll/">Migrate from Jekyll</a></h4>
+            <h5>March 10, 2014</h5>
+
+            <a href="https://brianchophi.github.io/tags/go"><kbd class="item-tag">go</kbd></a>
+
+            <a href="https://brianchophi.github.io/tags/golang"><kbd class="item-tag">golang</kbd></a>
+
+            <a href="https://brianchophi.github.io/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
+
+            <a href="https://brianchophi.github.io/tags/jekyll"><kbd class="item-tag">jekyll</kbd></a>
+
+            <a href="https://brianchophi.github.io/tags/static-site-generator"><kbd
+                    class="item-tag">static-site-generator</kbd></a>
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <p class="copyright text-muted">© All rights reserved. Powered by <a
+                href="https://brianchophi.github.io">brianchophi</a>.</p>
+    </footer>
+
+
+
+
+</body>
 
 </html>
-
