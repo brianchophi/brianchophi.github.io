@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尾牙重複抽獎期望計算</title>
-      <link>https://brianchophi.github.io/post/creating-a-new-theme/</link>
+      <link>https://brianchophi.github.io/post/cal-repeated-wins-method/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://brianchophi.github.io/post/creating-a-new-theme/</guid>
+      <guid>https://brianchophi.github.io/post/cal-repeated-wins-method/</guid>
       <description>尾牙重複抽獎期望計算 40人抽100獎項可重複抽取 某人都沒中的機率 (39/40)^100 ~= 7.951728986%
 40個人裡有人沒中的機率 數學精算 $C_1^{40}(39/40)^{100}-C_2^{40}(38/40)^{100}+C_3^{40}(37/40)^{100}&amp;hellip;C_{39}^{40}(1/40)^{100} ~= 0.9768650966830548$
 simulator ~= 97.3% package mainimport (&amp;quot;fmt&amp;quot;&amp;quot;math/rand&amp;quot;&amp;quot;time&amp;quot;)func main() {rand.Seed(time.Now().UnixNano())count := 0times := 100000for i := 0; i &amp;lt; times; i++ {if getDev() {count++}}fmt.Println(float64(count) / float64(times))}func getDev() bool {stat := map[int]int{}for i := 0; i &amp;lt;= 100; i++ {a := rand.Intn(40)stat[a]++}for i := 0; i &amp;lt; 40; i++ {if stat[i] == 0 {return true}}return false}</description>
