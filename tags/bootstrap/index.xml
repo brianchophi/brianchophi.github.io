@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bootstrap on 遊戲數學</title>
-    <link>http://chomath.github.io/tags/bootstrap/</link>
+    <link>http://brianchophi.github.io/tags/bootstrap/</link>
     <description>Recent content in bootstrap on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://chomath.github.io/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://brianchophi.github.io/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 3</title>
-      <link>http://chomath.github.io/project/project3/</link>
+      <link>http://brianchophi.github.io/project/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/project/project3/</guid>
+      <guid>http://brianchophi.github.io/project/project3/</guid>
       <description></description>
     </item>
     

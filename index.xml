@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>遊戲數學</title>
-    <link>http://chomath.github.io/</link>
+    <link>http://brianchophi.github.io/</link>
     <description>Recent content on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://chomath.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://brianchophi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 1</title>
-      <link>http://chomath.github.io/project/project1/</link>
+      <link>http://brianchophi.github.io/project/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/project/project1/</guid>
+      <guid>http://brianchophi.github.io/project/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 2</title>
-      <link>http://chomath.github.io/project/project2/</link>
+      <link>http://brianchophi.github.io/project/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/project/project2/</guid>
+      <guid>http://brianchophi.github.io/project/project2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 3</title>
-      <link>http://chomath.github.io/project/project3/</link>
+      <link>http://brianchophi.github.io/project/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/project/project3/</guid>
+      <guid>http://brianchophi.github.io/project/project3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 4</title>
-      <link>http://chomath.github.io/project/project4/</link>
+      <link>http://brianchophi.github.io/project/project4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/project/project4/</guid>
+      <guid>http://brianchophi.github.io/project/project4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>尾牙重複抽獎期望計算</title>
-      <link>http://chomath.github.io/post/creating-a-new-theme/</link>
+      <link>http://brianchophi.github.io/post/creating-a-new-theme/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/post/creating-a-new-theme/</guid>
+      <guid>http://brianchophi.github.io/post/creating-a-new-theme/</guid>
       <description>尾牙重複抽獎期望計算 40人抽100獎項可重複抽取 某人都沒中的機率 (39/40)^100 ~= 7.951728986%
 40個人裡有人沒中的機率 數學精算 $C_1^{40}(39/40)^{100}-C_2^{40}(38/40)^{100}+C_3^{40}(37/40)^{100}&amp;hellip;C_{39}^{40}(1/40)^{100} ~= 0.9768650966830548$
 simulator ~= 97.3% package mainimport (&amp;quot;fmt&amp;quot;&amp;quot;math/rand&amp;quot;&amp;quot;time&amp;quot;)func main() {rand.Seed(time.Now().UnixNano())count := 0times := 100000for i := 0; i &amp;lt; times; i++ {if getDev() {count++}}fmt.Println(float64(count) / float64(times))}func getDev() bool {stat := map[int]int{}for i := 0; i &amp;lt;= 100; i++ {a := rand.Intn(40)stat[a]++}for i := 0; i &amp;lt; 40; i++ {if stat[i] == 0 {return true}}return false}</description>
@@ -56,29 +56,29 @@ simulator ~= 97.3% package mainimport (&amp;quot;fmt&amp;quot;&amp;quot;math/
     
     <item>
       <title>一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111</title>
-      <link>http://chomath.github.io/math/combination/</link>
+      <link>http://brianchophi.github.io/math/combination/</link>
       <pubDate>Thu, 11 Mar 2021 17:49:29 +0800</pubDate>
       
-      <guid>http://chomath.github.io/math/combination/</guid>
+      <guid>http://brianchophi.github.io/math/combination/</guid>
       <description>一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111 一號妳135435743574354384354151515151515164121212121212122222221111111111111111111111111111111111111111111</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://chomath.github.io/post/goisforlovers/</link>
+      <link>http://brianchophi.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/post/goisforlovers/</guid>
+      <guid>http://brianchophi.github.io/post/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://chomath.github.io/post/hugoisforlovers/</link>
+      <link>http://brianchophi.github.io/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/post/hugoisforlovers/</guid>
+      <guid>http://brianchophi.github.io/post/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -89,10 +89,10 @@ Follow the following steps:
     
     <item>
       <title>Migrate from Jekyll</title>
-      <link>http://chomath.github.io/post/migrate-from-jekyll/</link>
+      <link>http://brianchophi.github.io/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/post/migrate-from-jekyll/</guid>
+      <guid>http://brianchophi.github.io/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
 ▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -100,10 +100,10 @@ Follow the following steps:
     
     <item>
       <title>數學狼</title>
-      <link>http://chomath.github.io/about/</link>
+      <link>http://brianchophi.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://chomath.github.io/about/</guid>
+      <guid>http://brianchophi.github.io/about/</guid>
       <description></description>
     </item>
     
