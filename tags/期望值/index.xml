@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>期望值 on 遊戲數學</title>
-    <link>https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/</link>
+    <link>/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/</link>
     <description>Recent content in 期望值 on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>可重複中獎模型－有人沒中的期望計算</title>
-      <link>https://brianchophi.github.io/post/cal-repeated-wins-method/</link>
+      <title>符文大地傳說競技場模型</title>
+      <link>/post/lor-arena-7wins/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lor-arena-7wins/</guid>
+      <description>符文大地傳說競技場模型-遠征勝率與勝場情況分析 命題 求實力要多少才能有一半的機率用一枚代幣獲得七勝獎勵
+ 實力表示每一局勝利的機率(期望勝率) 此篇計算以固定值表示  符文大地傳說競技場規則  七勝出場 連續兩敗出場 挑戰第七勝時僅有一次敗局機會 每枚代幣共可參加兩場 兩場中成績較優者為獎勵發放條件  每場可能性 敗敗:0勝敗勝敗敗:1勝 敗勝敗勝敗敗:2勝敗勝敗勝敗勝敗敗:3勝敗勝敗勝敗勝敗勝敗敗:4勝敗勝敗勝敗勝敗勝敗勝敗敗:5勝敗勝敗勝敗勝敗勝敗勝敗勝敗:6勝敗勝敗勝敗勝敗勝敗勝敗勝勝:7勝...勝勝勝勝勝勝勝:7勝解題 機率公式 $P_{win0}=(1-p)^2$
+$P_{winN}=\sum _{i=0}^n C_i^np^n\cdot(1-p)^{2+i}$
+$P_{win6}=\sum _{i=0}^6 C_i^6p^6\cdot(1-p)^{1+i}$
+$P_{win7}=\sum _{i=0}^6 C_i^6p^7\cdot(1-p)^{i}$
+數學模型展示    勝率 0勝 1勝 2勝 3勝 4勝 5勝 6勝 7勝     10% 81.0% 15.4% 2.9% 0.6% 0.1% 0.0% 0.0% 0.0%   20% 64.0% 23.0% 8.3% 3.</description>
+    </item>
+    
+    <item>
+      <title>可重複中獎模型</title>
+      <link>/post/cal-repeated-wins-method/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://brianchophi.github.io/post/cal-repeated-wins-method/</guid>
+      <guid>/post/cal-repeated-wins-method/</guid>
       <description>可重複中獎模型－有人沒中的期望計算 命題  一公司尾牙共計要發出１００個獎項 可參與抽獎的人數共４０人 中獎者仍有抽獎資格(可中複數的獎項)  解題 某人都沒中的機率 $(39/40)^{100} ~= 7.951$%
 40個人裡有人沒中的機率 數學模型 根據數學排容原理：有一個沒中的機率－有兩人沒中的機率＋有三人沒中的機率．．．
 $C_1^{40}(39/40)^{100}-C_2^{40}(38/40)^{100}+C_3^{40}(37/40)^{100}&amp;hellip;C_{39}^{40}(1/40)^{100} \approx 0.97686$%
