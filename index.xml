@@ -6,7 +6,21 @@
     <description>Recent content on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>符文大地傳說提摩蘑菇模型</title>
+      <link>https://brianchophi.github.io/post/lor-teemo-mushroom/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/post/lor-teemo-mushroom/</guid>
+      <description>符文大地傳說提摩蘑菇模型 命題 給定
+ 牌庫數量n 牌庫裡蘑菇總數量m  求此次抽取的牌上共有幾個蘑菇？
+蘑菇模型說明  蘑菇會隨機種在牌庫的其中一張牌 一張牌上可以有複數個蘑菇  解題 公式解 $P(n,m,k)=C^m_k\cdot(\frac{1}{n})^k\cdot(\frac{n-1}{n})^{m-k}$
+n=牌庫剩餘值 m=蘑菇總數量 k=抽出蘑菇數量
+\begin{align} P(n,1,1)&amp;amp;= \frac {1}{n} \cr P(n,2,1)&amp;amp;=2 \times \frac {1}{n} \times \frac {n-1}{n} \cr P(n,2,2)&amp;amp;={( \frac {1}{n})}^2 \cr P(10,20,2)&amp;amp;=C^{20}_2 \times ( \frac {1}{10})^2 \times ( \frac {9}{10})^{18} \approx 0.2852 \end{align}
+表列整理    k P(10,10,k) P(10,20,k) P(10,30,k) P(10,40,k)     0 34.86% 12.15% 4.23% 1.47%   1 38.74% 27.</description>
+    </item>
+    
     <item>
       <title>保底強化模型</title>
       <link>https://brianchophi.github.io/post/guaranteed-strengthen/</link>
@@ -37,7 +51,7 @@ $E_v=\frac{1-(1-x)^T (1+Tx)}{x}+T(1-x)^T$
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://brianchophi.github.io/post/cal-repeated-wins-method/</guid>
-      <description>可重複中獎模型 命題  一公司尾牙共計要發出１００個獎項 可參與抽獎的人數共４０人 中獎者仍有抽獎資格(可中複數的獎項)  解題 某人都沒中的機率 $(39/40)^{100} ~= 7.951$%
+      <description>可重複中獎模型 命題  一公司尾牙共計要發出１００個獎項 可參與抽獎的人數共４０人 中獎者仍有抽獎資格(可中複數的獎項)  解題 某人都沒中的機率 $(39/40)^{100} \approx 7.951$%
 40個人裡有人沒中的機率 數學模型 根據數學排容原理：有一個沒中的機率－有兩人沒中的機率＋有三人沒中的機率．．．
 $C_1^{40}(39/40)^{100}-C_2^{40}(38/40)^{100}+C_3^{40}(37/40)^{100}&amp;hellip;C_{39}^{40}(1/40)^{100} \approx 0.97686$%
 模擬模型 根據蒙地卡羅法進行快速估算 $\approx 97.3$%

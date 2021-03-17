@@ -6,7 +6,21 @@
     <description>Recent content in 圖表 on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E5%9C%96%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E5%9C%96%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>符文大地傳說提摩蘑菇模型</title>
+      <link>https://brianchophi.github.io/post/lor-teemo-mushroom/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/post/lor-teemo-mushroom/</guid>
+      <description>符文大地傳說提摩蘑菇模型 命題 給定
+ 牌庫數量n 牌庫裡蘑菇總數量m  求此次抽取的牌上共有幾個蘑菇？
+蘑菇模型說明  蘑菇會隨機種在牌庫的其中一張牌 一張牌上可以有複數個蘑菇  解題 公式解 $P(n,m,k)=C^m_k\cdot(\frac{1}{n})^k\cdot(\frac{n-1}{n})^{m-k}$
+n=牌庫剩餘值 m=蘑菇總數量 k=抽出蘑菇數量
+\begin{align} P(n,1,1)&amp;amp;= \frac {1}{n} \cr P(n,2,1)&amp;amp;=2 \times \frac {1}{n} \times \frac {n-1}{n} \cr P(n,2,2)&amp;amp;={( \frac {1}{n})}^2 \cr P(10,20,2)&amp;amp;=C^{20}_2 \times ( \frac {1}{10})^2 \times ( \frac {9}{10})^{18} \approx 0.2852 \end{align}
+表列整理    k P(10,10,k) P(10,20,k) P(10,30,k) P(10,40,k)     0 34.86% 12.15% 4.23% 1.47%   1 38.74% 27.</description>
+    </item>
+    
     <item>
       <title>保底強化模型</title>
       <link>https://brianchophi.github.io/post/guaranteed-strengthen/</link>
