@@ -8,11 +8,11 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>golang</title>
-      <link>https://brianchophi.github.io/tags/golang/</link>
+      <title>圖表</title>
+      <link>https://brianchophi.github.io/tags/%E5%9C%96%E8%A1%A8/</link>
       <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://brianchophi.github.io/tags/golang/</guid>
+      <guid>https://brianchophi.github.io/tags/%E5%9C%96%E8%A1%A8/</guid>
       <description></description>
     </item>
     
@@ -22,6 +22,15 @@
       <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>程式模擬</title>
+      <link>https://brianchophi.github.io/tags/%E7%A8%8B%E5%BC%8F%E6%A8%A1%E6%93%AC/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/tags/%E7%A8%8B%E5%BC%8F%E6%A8%A1%E6%93%AC/</guid>
       <description></description>
     </item>
     
