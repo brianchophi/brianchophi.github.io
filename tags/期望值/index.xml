@@ -6,7 +6,21 @@
     <description>Recent content in 期望值 on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/tags/%E6%9C%9F%E6%9C%9B%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>保底強化模型</title>
+      <link>https://brianchophi.github.io/post/guaranteed-strengthen/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/post/guaranteed-strengthen/</guid>
+      <description>保底強化模型 命題 給定固定強化成功率x與固定保底值T，求成功強化的期望次數
+保底強化模型規則  強化成功率 $\in [0,1)$ 強化失敗幸運值+1 幸運值超過保底值強化成功  解題 無保底模型 $E_v = \frac{1}{x}$
+證明 \begin{align} E_v &amp;amp;= x + 2x(1-x)+&amp;hellip;+nx(1-x)^{n-1} \cr (1-x)E_v &amp;amp;= x(1-x)+2x(1-x)^2+&amp;hellip;+(n-1)x(1-x)^{n-1}\quad\quad\quad\quad\quad \cr xE_v &amp;amp;= x+x(1-x)+2x(1-x)^2+&amp;hellip;= x \frac{1}{1-(1-x)} = 1\cr E_v &amp;amp;= \frac{1}{x} \cr \end{align}
+保底模型 期望值=T次內期望值+T*(1-T次內成功機率)
+$E_v=\frac{1-(1-x)^T (1+Tx)}{x}+T(1-x)^T$ 
+數值展示    T\x 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%     2 1.90 1.80 1.70 1.60 1.</description>
+    </item>
+    
     <item>
       <title>符文大地傳說遠征模型</title>
       <link>https://brianchophi.github.io/post/lor-arena-7wins/</link>
@@ -14,7 +28,7 @@
       
       <guid>https://brianchophi.github.io/post/lor-arena-7wins/</guid>
       <description>符文大地傳說遠征模型 命題 求實力要多少才能有一半的機率用一枚代幣獲得七勝獎勵
- 實力表示每一局勝利的機率(期望勝率) 此篇計算以固定值表示  符文大地傳說競技場規則  七勝出場 連續兩敗出場 挑戰第七勝時僅有一次敗局機會 每枚代幣共可參加兩場 兩場中成績較優者為獎勵發放條件  每場可能性 敗敗:0勝敗勝敗敗:1勝 敗勝敗勝敗敗:2勝敗勝敗勝敗勝敗敗:3勝敗勝敗勝敗勝敗勝敗敗:4勝敗勝敗勝敗勝敗勝敗勝敗敗:5勝敗勝敗勝敗勝敗勝敗勝敗勝敗:6勝敗勝敗勝敗勝敗勝敗勝敗勝勝:7勝...勝勝勝勝勝勝勝:7勝解題 機率公式 \begin{align} P_{win0}&amp;amp;=(1-p)^2 \cr P _ {winN} &amp;amp;= \sum _ {i=0} ^ n C _ i^n p^n \times (1-p) ^ {2+i} \cr P _ {win6} &amp;amp;= \sum _ {i=0} ^ 6 C _ i^6 p^6 \times (1-p) ^ {1+i} \cr P _ {win7} &amp;amp;= \sum _ {i=0} ^ 6 C _ i^6 p^7 \times(1-p) ^ {i} \end{align}</description>
+ 實力表示每一局勝利的機率(期望勝率) 此篇計算以固定值表示  符文大地傳說遠征規則  七勝出場 連續兩敗出場 挑戰第七勝時僅有一次敗局機會 每枚代幣共可參加兩場 兩場中成績較優者為獎勵發放條件  每場可能性 敗敗:0勝敗勝敗敗:1勝 敗勝敗勝敗敗:2勝敗勝敗勝敗勝敗敗:3勝敗勝敗勝敗勝敗勝敗敗:4勝敗勝敗勝敗勝敗勝敗勝敗敗:5勝敗勝敗勝敗勝敗勝敗勝敗勝敗:6勝敗勝敗勝敗勝敗勝敗勝敗勝勝:7勝...勝勝勝勝勝勝勝:7勝解題 機率公式 \begin{align} P_{win0}&amp;amp;=(1-p)^2 \cr P _ {winN} &amp;amp;= \sum _ {i=0} ^ n C _ i^n p^n \times (1-p) ^ {2+i} \cr P _ {win6} &amp;amp;= \sum _ {i=0} ^ 6 C _ i^6 p^6 \times (1-p) ^ {1+i} \cr P _ {win7} &amp;amp;= \sum _ {i=0} ^ 6 C _ i^6 p^7 \times(1-p) ^ {i} \end{align}</description>
     </item>
     
     <item>
