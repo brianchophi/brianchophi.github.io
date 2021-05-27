@@ -72,16 +72,17 @@ package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34
     </item>
     
     <item>
-      <title>工具連結</title>
+      <title>工具資源連結</title>
       <link>https://brianchophi.github.io/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brianchophi.github.io/tools/</guid>
-      <description>工欲善其事，必先利其器～
- 數學作圖 https://www.geogebra.org/
-https://www.desmos.com/
-2D作圖 https://app.diagrams.net/
-https://www.canva.com/</description>
+      <description>好用資源 數學作圖  https://www.geogebra.org/
+ https://www.desmos.com/
+2D作圖  https://app.diagrams.net/
+ https://www.canva.com/
+ 工欲善其事，必先利其器～
+ </description>
     </item>
     
     <item>
