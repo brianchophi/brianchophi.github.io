@@ -6,7 +6,20 @@
     <description>Recent content on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生日悖論</title>
+      <link>https://brianchophi.github.io/post/birthbay-promblem/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/post/birthbay-promblem/</guid>
+      <description>生日悖論 命題 至少幾人的教室，有５０％概率會有其中兩個人同一天生日？
+基本假設  一年365天 每天生日概率相等  解題   兩個人同一天生日的機率 $1/365 \times 1/365 = 0.00000750609$
+  N個人都沒有人同一天生日的機率
+ N&amp;gt;=365 必定有兩個人在同一天生日 N&amp;lt;365
+$\Pi_{n=1}^N(\frac{365-n}{365}) = \frac{365}{365}\times\frac{365-1}{365}\times&amp;hellip;\times\frac{365-N}{365}$    模擬程式 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;time&amp;#34; ) func main() { rand.Seed(time.Now().UnixNano()) for i := 1; i &amp;lt;= 100; i++ { fmt.Println(i, &amp;#34;,&amp;#34;, stat(i)) } } func stat(n int) float64 { measure_time := 10000.0 hit_time := 0.0 for t := 0.</description>
+    </item>
+    
     <item>
       <title>符文大地傳說提摩蘑菇模型</title>
       <link>https://brianchophi.github.io/post/lor-teemo-mushroom/</link>
@@ -32,7 +45,7 @@ n=牌庫剩餘值 m=蘑菇總數量 k=抽出蘑菇數量
 證明 \begin{align} E_v &amp;amp;= x + 2x(1-x)+&amp;hellip;+nx(1-x)^{n-1} \cr (1-x)E_v &amp;amp;= x(1-x)+2x(1-x)^2+&amp;hellip;+(n-1)x(1-x)^{n-1}\quad\quad\quad\quad\quad \cr xE_v &amp;amp;= x+x(1-x)+2x(1-x)^2+&amp;hellip;= x \frac{1}{1-(1-x)} = 1\cr E_v &amp;amp;= \frac{1}{x} \cr \end{align}
 保底模型 期望值=T次內期望值+T*(1-T次內成功機率)
 $E_v=\frac{1-(1-x)^T (1+Tx)}{x}+T(1-x)^T$
-強化期望次數對成功機率作圖   數值展示    T\x 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%     2 1.90 1.80 1.70 1.</description>
+強化期望次數對成功機率作圖  數值展示    T\x 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%     2 1.90 1.80 1.70 1.60 1.</description>
     </item>
     
     <item>
@@ -77,7 +90,7 @@ https://www.canva.com/</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brianchophi.github.io/about/</guid>
-      <description>   把自己角色扮演好，全力以赴每一秒～
+      <description>  把自己角色扮演好，全力以赴每一秒～
  </description>
     </item>
     

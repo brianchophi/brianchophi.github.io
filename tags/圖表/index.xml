@@ -32,7 +32,7 @@ n=牌庫剩餘值 m=蘑菇總數量 k=抽出蘑菇數量
 證明 \begin{align} E_v &amp;amp;= x + 2x(1-x)+&amp;hellip;+nx(1-x)^{n-1} \cr (1-x)E_v &amp;amp;= x(1-x)+2x(1-x)^2+&amp;hellip;+(n-1)x(1-x)^{n-1}\quad\quad\quad\quad\quad \cr xE_v &amp;amp;= x+x(1-x)+2x(1-x)^2+&amp;hellip;= x \frac{1}{1-(1-x)} = 1\cr E_v &amp;amp;= \frac{1}{x} \cr \end{align}
 保底模型 期望值=T次內期望值+T*(1-T次內成功機率)
 $E_v=\frac{1-(1-x)^T (1+Tx)}{x}+T(1-x)^T$
-強化期望次數對成功機率作圖   數值展示    T\x 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%     2 1.90 1.80 1.70 1.</description>
+強化期望次數對成功機率作圖  數值展示    T\x 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%     2 1.90 1.80 1.70 1.60 1.</description>
     </item>
     
   </channel>
