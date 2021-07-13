@@ -6,7 +6,18 @@
     <description>Recent content in Posts on 遊戲數學</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianchophi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>批次解鎖受保護的PDF檔</title>
+      <link>https://brianchophi.github.io/post/batch-unlock-pdf-method/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianchophi.github.io/post/batch-unlock-pdf-method/</guid>
+      <description>目的 解除大量鎖定列印與編輯的PDF檔案
+必要軟體 ghostcript
+ 下載連結 https://www.ghostscript.com/download/gsdnld.html 選擇Ghostscript 9.54.0 for Windows (64 bit) Ghostscript AGPL Release 標準安裝完(基本上都是下一步點一點) 標準預設目錄在C:\Program Files\gs\gs9.54.0  新增系統路徑  win + S &amp;gt; 搜尋環境變數 選擇編輯系統環境變數  新增使用者變數 變數名稱 path 變數值 C:\Program Files\gs\gs9.54.0\bin  確定  命令提示字元操作說明  在C槽先建立一個工作目錄(例如: C:\pdf) win + R &amp;gt; 執行 輸入cmd &amp;gt; 確定 開啟命令提示字元 cd C:\pdf (調整至工作目錄 ) 畫面顯示C:\pdf&amp;gt;   在cmd中要貼上可以用滑鼠右鍵貼上  單一解鎖方式  在工作目錄放入想解鎖的pdf 在cmd中輸入 (C:\pdf&amp;gt;)  gswin64c -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=&amp;quot;1-unlocked.</description>
+    </item>
+    
     <item>
       <title>生日悖論</title>
       <link>https://brianchophi.github.io/post/birthbay-promblem/</link>

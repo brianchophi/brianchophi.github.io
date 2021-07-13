@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Posts</title>
+        <title>批次解鎖受保護的PDF檔</title>
         
         <style>
 
@@ -62,9 +62,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.85.0" />
         
-            <link href="/post/index.xml" rel="alternate" type="application/rss&#43;xml" title="遊戲數學" />
-            <link href="/post/index.xml" rel="feed" type="application/rss&#43;xml" title="遊戲數學" />
-        
 
         
 
@@ -104,7 +101,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+                    <a class="navbar-brand visible-xs" href="#">批次解鎖受保護的PDF檔</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -144,22 +141,89 @@
 
 
 <main>
-     <div class="item">
 
-    
-    
-    
+    <div>
+        <h2>批次解鎖受保護的PDF檔</h2>
+        <h5>July 13, 2021</h5>
+        
 
-    
-    
+    </div>
 
-    <h4><a href="/post/batch-unlock-pdf-method/">批次解鎖受保護的PDF檔</a></h4>
-    <h5>July 13, 2021</h5>
-    
-
-
+    <div align="start" class="content"><h2 id="目的">目的</h2>
+<p>解除大量鎖定列印與編輯的PDF檔案</p>
+<h2 id="必要軟體">必要軟體</h2>
+<p>ghostcript</p>
+<ol>
+<li>下載連結 <a href="https://www.ghostscript.com/download/gsdnld.html">https://www.ghostscript.com/download/gsdnld.html</a></li>
+<li>選擇Ghostscript 9.54.0 for Windows (64 bit) Ghostscript AGPL Release</li>
+<li>標準安裝完(基本上都是下一步點一點)</li>
+<li>標準預設目錄在C:\Program Files\gs\gs9.54.0</li>
+</ol>
+<h2 id="新增系統路徑">新增系統路徑</h2>
+<ol>
+<li>win + S &gt; 搜尋環境變數</li>
+<li>選擇編輯系統環境變數
+<img src="https://i.imgur.com/NzwA4Cq.png" alt=""></li>
+<li>新增使用者變數
+變數名稱 path
+變數值 C:\Program Files\gs\gs9.54.0\bin
+<img src="https://i.imgur.com/kI4LfL6.png" alt="">
+<img src="https://i.imgur.com/AtySHdz.png" alt=""></li>
+<li>確定</li>
+</ol>
+<h2 id="命令提示字元操作說明">命令提示字元操作說明</h2>
+<ol>
+<li>在C槽先建立一個工作目錄(例如: C:\pdf)</li>
+<li>win + R &gt; 執行</li>
+<li>輸入cmd &gt; 確定</li>
+<li>開啟命令提示字元</li>
+<li>cd C:\pdf  (調整至工作目錄 )</li>
+<li>畫面顯示C:\pdf&gt;</li>
+</ol>
+<ul>
+<li>在cmd中要貼上可以用滑鼠右鍵貼上</li>
+</ul>
+<h2 id="單一解鎖方式">單一解鎖方式</h2>
+<ol>
+<li>在工作目錄放入想解鎖的pdf</li>
+<li>在cmd中輸入 (C:\pdf&gt;)</li>
+</ol>
+<pre><code>gswin64c -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=&quot;1-unlocked.pdf&quot; &quot;1.pdf&quot;
+</code></pre><p><img src="https://i.imgur.com/qrWpZHT.png" alt="">
+3. 按下enter後完成
+<img src="https://i.imgur.com/F6T73vF.png" alt=""></p>
+<h2 id="批次解鎖方式">批次解鎖方式</h2>
+<ol>
+<li>在工作目錄放入想解鎖的pdf們</li>
+<li>建立conv資料夾用於存放解鎖後的pdf</li>
+<li>建立一個conv.txt</li>
+<li>建立一個conv.bat (注意附檔名要是.bat)</li>
+<li>可以用檢視&gt;顯示/隱藏&gt;勾選副檔名，以免建立成conv.bat.txt之類的情況
+<img src="https://i.imgur.com/n5pcb0T.png" alt=""></li>
+<li>在cmd中輸入 (C:\pdf&gt;)</li>
+</ol>
+<pre><code>dir *.pdf /b &gt;conv.txt
+</code></pre><p><img src="https://i.imgur.com/pz6QIKu.png" alt=""></p>
+<ol start="7">
+<li>
+<p>此時conv.txt有檔名列表<br>
+<img src="https://i.imgur.com/Xge9JtH.png" alt=""></p>
+</li>
+<li>
+<p>在cmd中輸入 (C:\pdf&gt;)</p>
+</li>
+</ol>
+<pre><code>echo FOR /F &quot;eol=; usebackq delims==&quot; %%i in (conv.txt) do gswin64c -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=&quot;conv/%%i&quot; &quot;%%i&quot; &gt; conv.bat
+</code></pre><p><img src="https://i.imgur.com/kbfKVsM.png" alt=""></p>
+<ol start="9">
+<li>在cmd中輸入 (C:\pdf&gt;)</li>
+</ol>
+<pre><code>conv.bat
+</code></pre><p><img src="https://i.imgur.com/Ps6USVQ.png" alt="">
+10. 所有輸出檔案即在子資料夾conv裡面</p>
+<h2 id="參考來源">參考來源</h2>
+<p><a href="http://mt-tp-tw.blogspot.com/2017/10/pdf.html">http://mt-tp-tw.blogspot.com/2017/10/pdf.html</a></p>
 </div>
-  <div class="item">
 
     
     
@@ -167,77 +231,8 @@
 
     
     
-
-    <h4><a href="/post/birthbay-promblem/">生日悖論</a></h4>
-    <h5>May 27, 2021</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/lor-teemo-mushroom/">符文大地傳說提摩蘑菇模型</a></h4>
-    <h5>March 17, 2021</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/guaranteed-strengthen/">保底強化模型</a></h4>
-    <h5>March 16, 2021</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/lor-arena-7wins/">符文大地傳說遠征模型</a></h4>
-    <h5>March 15, 2021</h5>
-    
-
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-    
-
-    
-        <a class="icon pages-icon" href="/post/page/2/" rel="next">
-            <i class="fa fa-arrow-right"></i>
-        </a>
-    
-
-</div>
-
-
 
         <footer>
             <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://brianchophi.github.io">BrianChoPhi</a> , <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
@@ -249,3 +244,4 @@
     </body>
 
 </html>
+
